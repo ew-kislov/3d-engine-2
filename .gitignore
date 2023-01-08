@@ -1,0 +1,9 @@
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+src/.vscode
+.vscode
+game
+.DS_Store
+Makefile
+.vscode

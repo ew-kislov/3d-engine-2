@@ -12,7 +12,8 @@ enum EInputKey {
 class Window {
     public:
         static void open(int width, int height, std::string title);
-        static void nextFrame();
+        static void prepareCurrentFrame();
+        static void prepareNextFrame();
         static void close();
 
         static void setShouldClose();

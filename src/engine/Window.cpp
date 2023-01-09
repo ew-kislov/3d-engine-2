@@ -34,7 +34,12 @@ void Window::open(int width, int height, std::string title) {
 	}  
 }
 
-void Window::nextFrame() {
+void Window::prepareCurrentFrame() {
+    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
+    glClear(GL_COLOR_BUFFER_BIT);
+}
+
+void Window::prepareNextFrame() {
     glfwSwapBuffers(Window::window);
     glfwPollEvents();
 }

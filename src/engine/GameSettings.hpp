@@ -6,9 +6,9 @@ class GameSettings {
         void setMouseSensitivity(int mouseSensitivity);
 
     private:
-        int width;
-        int height;
-        int mouseSensitivity;
+        int width = 800;
+        int height = 600;
+        int mouseSensitivity = 5;
 
         glm::mat4 projectionMatrix;
 };

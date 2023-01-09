@@ -75,9 +75,6 @@ Game
             Window::close();
         }
 
-
 ------------------
 
-
-MapGameObject implements IGameObject
-SunGameObject implements IGameObject
+Sun implements IGameObject
